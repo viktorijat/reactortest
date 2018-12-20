@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e988aa6b-9581-4f07-8c09-6c64fa04273a" name="Default Changelist" comment="" />
+    <list default="true" id="e988aa6b-9581-4f07-8c09-6c64fa04273a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FluxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MonoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MonoTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,25 +24,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="431" />
+          <entry key="java" value="586" />
+          <entry key="txt" value="5" />
           <entry key="xml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="431" />
+          <entry key="JAVA" value="586" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="61" />
         </counts>
       </usages-collector>
@@ -55,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MonoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="530">
+              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
@@ -72,7 +78,18 @@
                 <element signature="e#1060#1061#0" expanded="true" />
                 <element signature="e#1120#1121#0" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FluxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -85,6 +102,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -143,6 +163,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -168,6 +189,13 @@
             </path>
             <path>
               <item name="reactortest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactortest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactortest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -179,7 +207,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545315407094" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545316354605" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -197,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MonoTest.errorOnErrorResumeMono">
+  <component name="RunManager" selected="JUnit.MonoTest.errorOnErrorReturnMono">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -206,17 +235,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonoTest.emptyCompleteConsumerMono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="reactortest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonoTest" />
-      <option name="METHOD_NAME" value="emptyCompleteConsumerMono" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,6 +266,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MonoTest" />
       <option name="METHOD_NAME" value="errorOnErrorResumeMono" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoTest.errorOnErrorReturnMono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactortest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonoTest" />
+      <option name="METHOD_NAME" value="errorOnErrorReturnMono" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -289,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MonoTest.emptyCompleteConsumerMono" />
       <item itemvalue="JUnit.MonoTest.errorRuntimeExceptionMono" />
       <item itemvalue="JUnit.MonoTest.errorExceptionMono" />
       <item itemvalue="JUnit.MonoTest.errorDoOnErrorMono" />
       <item itemvalue="JUnit.MonoTest.errorOnErrorResumeMono" />
+      <item itemvalue="JUnit.MonoTest.errorOnErrorReturnMono" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MonoTest.errorOnErrorReturnMono" />
         <item itemvalue="JUnit.MonoTest.errorOnErrorResumeMono" />
         <item itemvalue="JUnit.MonoTest.errorDoOnErrorMono" />
         <item itemvalue="JUnit.MonoTest.errorExceptionMono" />
         <item itemvalue="JUnit.MonoTest.errorRuntimeExceptionMono" />
-        <item itemvalue="JUnit.MonoTest.emptyCompleteConsumerMono" />
       </list>
     </recent_temporary>
   </component>
@@ -316,12 +345,17 @@
       <option name="presentableId" value="Default" />
       <updated>1545313804583</updated>
     </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1545315429657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545315429657</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MonoTest_monoWithConsumer - 2018.12.20 at 15h 04m 56s.xml">
-      <configuration name="MonoTest.monoWithConsumer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MonoTest_firstMono - 2018.12.20 at 15h 04m 59s.xml">
       <configuration name="MonoTest.firstMono" configurationId="JUnit" />
     </history-entry>
@@ -349,6 +383,9 @@
     <history-entry file="MonoTest_errorOnErrorResumeMono - 2018.12.20 at 15h 15m 13s.xml">
       <configuration name="MonoTest.errorOnErrorResumeMono" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MonoTest_errorOnErrorReturnMono - 2018.12.20 at 15h 19m 37s.xml">
+      <configuration name="MonoTest.errorOnErrorReturnMono" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-300" width="1920" height="1200" extended-state="0" />
@@ -359,7 +396,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -368,7 +405,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971996" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32971996" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,6 +423,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -396,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MonoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="530">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
@@ -410,7 +451,16 @@
             <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FluxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
