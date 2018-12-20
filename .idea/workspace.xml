@@ -179,7 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545315324419" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545315407094" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -319,15 +319,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MonoTest_firstMono - 2018.12.20 at 15h 02m 58s.xml">
-      <configuration name="MonoTest.firstMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MonoTest_firstMono - 2018.12.20 at 15h 03m 17s.xml">
-      <configuration name="MonoTest.firstMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MonoTest - 2018.12.20 at 15h 04m 49s.xml">
-      <configuration name="MonoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MonoTest_monoWithConsumer - 2018.12.20 at 15h 04m 56s.xml">
       <configuration name="MonoTest.monoWithConsumer" configurationId="JUnit" />
     </history-entry>
@@ -348,6 +339,15 @@
     </history-entry>
     <history-entry file="MonoTest_errorRuntimeExceptionMono - 2018.12.20 at 15h 11m 28s.xml">
       <configuration name="MonoTest.errorRuntimeExceptionMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonoTest_errorExceptionMono - 2018.12.20 at 15h 12m 10s.xml">
+      <configuration name="MonoTest.errorExceptionMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonoTest_errorDoOnErrorMono - 2018.12.20 at 15h 13m 43s.xml">
+      <configuration name="MonoTest.errorDoOnErrorMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonoTest_errorOnErrorResumeMono - 2018.12.20 at 15h 15m 13s.xml">
+      <configuration name="MonoTest.errorOnErrorResumeMono" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
